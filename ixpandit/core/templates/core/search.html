@@ -1,0 +1,11 @@
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Buscar pokemon..." aria-label="Buscar pokemon..." aria-describedby="button-addon2" id="search-pokemon-field">
+  <button class="btn btn-primary" type="button" id="button-addon2" onclick="searchPokemon()">Buscar</button>
+</div>
+
+<script>
+function searchPokemon(){
+  pokemon = document.getElementById("search-pokemon-field").value;
+  location.href = '/' + pokemon;
+}
+</script>
