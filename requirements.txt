@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pytest
+pytest-asyncio
+pytest-httpx
+jinja2
+httpx
